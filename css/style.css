@@ -57,7 +57,7 @@ i {
   width: 100%;
   height: 100vh;
   top: 0;
-  background-image: url("../image/home_bg.png");
+  background-image: url("./image/home_bg.png");
   background-size: contain;
   background-repeat: no-repeat;
   z-index: -1;
