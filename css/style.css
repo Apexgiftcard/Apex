@@ -718,3 +718,67 @@ footer ul li {
     grid-template-columns: repeat(1, 1fr)
   }
 }
+
+
+@media only screen and (max-width:370px) {
+ 
+  .dowload img,
+  .Features img,
+  .function img {
+    width: 100%;
+    height: 100%;
+  }
+  .home {
+    text-align: center;
+  }
+  .home .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  .home h1 {
+    font-size: 3rem;
+  }
+
+  .dowload .flex  {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .dowload .flex {
+    flex-direction: column;
+  }
+
+  .dowload .box.flex {
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+
+  .function .heading {
+    margin-top: -6rem;
+  }
+  .login-form {
+    width: 30rem;
+    margin-left: -3rem;
+  }
+
+
+
+  .Features {
+    text-align: center;
+    margin-top: 320%;
+  }
+
+  .Features .img {
+    margin: auto;
+  }
+
+  .Features .grid,
+  footer .grid {
+    grid-template-columns: repeat(1, 1fr)
+  }
+}
