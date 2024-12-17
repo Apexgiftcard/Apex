@@ -10,7 +10,7 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
-  background-image: url("./home_bg.png");
+  background-image: url("image/home_bg.png");
 }
 
 /*---------global------*/
